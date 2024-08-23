@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@media screen and (min-width:960px) {
+  .Change-Size {
+    width: 400px;
+    height: 400px;
+  }
+  .Change-Color {
+    background-color: #f00;
+  }
+  .left-box,.right-box {
+    margin: 0 75px;
+  }
+  .red-box,.blue-box {
+    float: none;
+    display: inline-block;
+  }
+  .Row-reverse {
+    flex-direction: row;
+  }
+  .NA-blue-box {
+    display: none !important;
+  }
+}
+@media screen and (max-width:959px) {
+  .Change-Size {
+  width: 200px;
+  height: 200px;
+  }
+  .Change-Color {
+    background-color: #007bff;
+  }
+  .left-box,.right-box {
+    margin: 0 25px;
+  }
+  .red-box,.blue-box {
+    float: none;
+    display:block;
+    margin: 0px auto;
+  }
+  .Row-reverse {
+    flex-direction: row-reverse;
+  }
+  .green-A-box {
+    order: 1;
+  }
+  .yellow-B-box {
+    order: 2;
+  }
+  .NA-red-box {
+    display: none !important;
+  }
+}
+.Change-Size {
+  margin: 0 auto;
+  background-color: #f00;
+}
+.Change-Color {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+.Row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.left-box,.right-box {
+  width: 300px;
+  height: 300px;
+}
+.left-box {
+  background-color: #0008ff;
+}
+.right-box {
+  background-color: #2f0;
+}
+.Row-float {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.red-box,.blue-box {
+  width: 300px;
+  height: 300px;
+}
+.red-box {
+  background-color: #f00;
+}
+.blue-box {
+  background-color: #0008ff;
+}
+.Row-reverse {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.red-A-box,.blue-B-box,.brown-C-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red-A-box {
+  background-color: #f00;
+}
+.blue-B-box {
+  background-color: #0008ff;
+}
+.brown-C-box {
+  background-color: #ff8400;
+}
+.green-A-box,.yellow-B-box,.pink-C-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green-A-box {
+  background-color: #00ff51;
+}
+.yellow-B-box {
+  background-color: #d4ff00;
+}
+.pink-C-box {
+  background-color: #ff00e1;
+}
+.NA-red-box,.NA-blue-box,.NA-green-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NA-red-box {
+  background-color: #f00;
+}
+.NA-blue-box {
+  background-color: #0008ff;
+}
+.NA-green-box {
+  background-color: #00ff51;
+}
